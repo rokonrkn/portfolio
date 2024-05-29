@@ -1,0 +1,16 @@
+@media (min-width: 740px) {
+    .about{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 40px;
+    }
+}
+@media (max-width: 640px) {
+    .about-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .button{
+        margin-bottom: 20px;
+    }
+}

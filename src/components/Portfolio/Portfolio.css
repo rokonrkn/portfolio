@@ -1,0 +1,13 @@
+.parent:hover .child{
+    transform: scale(1.1);
+}
+.child{
+    transition: all 1s ;
+}
+@media (max-width: 640px) {
+    .portfolio-container{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 40px;
+    }
+}

@@ -1,0 +1,27 @@
+.border__all{
+    border-bottom: 4px solid teal;
+}
+@media (min-width: 640px) {
+    .headline{
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr;
+        gap: 20px;
+    }
+}
+@media (max-width: 640px) {
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        gap: 20px;
+    }
+    .sill-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .icon-centr{
+        margin-left: 65px;
+    }
+    .tools{
+        padding-bottom: 40px !important;
+    }
+}
